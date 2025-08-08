@@ -1,0 +1,27 @@
+payload:
+  - DOMAIN-SUFFIX,lechangecloud.com      # 乐橙云服务（大华）
+  - DOMAIN-SUFFIX,lechange.com           # 乐橙官网
+  - DOMAIN-SUFFIX,lechange.cn            # 乐橙备用域名
+  - DOMAIN-SUFFIX,mehome.net             # 大华智能家居
+  - DOMAIN-SUFFIX,dahuatech.com          # 大华技术平台
+  - DOMAIN-SUFFIX,hawksbill.zhiliant.com # 大华设备初始化平台
+  - DOMAIN-SUFFIX,ezviz.com              # 萤石主站（海康子品牌）
+  - DOMAIN-SUFFIX,ezvizlife.com          # 萤石生活 App
+  - DOMAIN-SUFFIX,ys7.com                # 萤石云视频服务
+  - DOMAIN-SUFFIX,ys7.net                # 萤石备用域
+  - DOMAIN-SUFFIX,hik-connect.com        # 海康 / 萤石设备连接平台
+  - DOMAIN-SUFFIX,hikvision.com.cn       # 海康官网（中国）
+  - DOMAIN-SUFFIX,hikvision.com          # 海康国际站
+  - DOMAIN-SUFFIX,hik-cloud.com          # 海康云服务
+  - DOMAIN-KEYWORD,mijia                 # 米家关键字（小米生态）
+  - DOMAIN-SUFFIX,home.mi.com            # 米家首页
+  - DOMAIN-SUFFIX,api.io.mi.com          # 小米 API 接口
+  - DOMAIN-SUFFIX,miot-spec.org          # 小米物联网协议平台
+  - DOMAIN-SUFFIX,dl.app.mi.com          # 小米应用商店
+  - DOMAIN-SUFFIX,stat.mi.com            # 小米数据统计服务
+  - DOMAIN-SUFFIX,tapo.io                # TP-Link Tapo 系列智能设备
+  - DOMAIN-SUFFIX,tp-linkcloud.com       # TP-Link 云平台
+  - DOMAIN-SUFFIX,tp-linkdns.com         # TP-Link 动态域名服务
+  - DOMAIN-SUFFIX,qcloudimg.com          # 腾讯云图床（360 视频常用）
+  - DOMAIN-SUFFIX,360safe.com            # 360 安全服务
+  - DOMAIN-SUFFIX,360.cn                 # 360 官方网站
