@@ -1,0 +1,38 @@
+payload:
+  # ---- OpenAI / ChatGPT 全平台必配 ----
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chat.openai.com
+  - DOMAIN-SUFFIX,ios.chat.openai.com
+  - DOMAIN-SUFFIX,android.chat.openai.com
+  - DOMAIN-SUFFIX,desktop.chat.openai.com
+  - DOMAIN-SUFFIX,auth.openai.com
+  - DOMAIN-SUFFIX,auth0.openai.com
+  - DOMAIN-SUFFIX,platform.openai.com
+  - DOMAIN-SUFFIX,api.openai.com
+  - DOMAIN-SUFFIX,cdn.openai.com
+  - DOMAIN-SUFFIX,pay.openai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-KEYWORD,openai
+
+  # === GPT 相关三方服务分流（用户行为分析 / 订阅验证 / 日志上报）===
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,revenuecat.com
+  - DOMAIN-KEYWORD,revenuecat
+  - DOMAIN-SUFFIX,datadoghq.com
+
+  # === 地区/公网IP探测服务（防止 App 判断你在中国）===
+  - DOMAIN-SUFFIX,ipify.org
+  - IP-CIDR,18.166.193.0/24
+
+  # === Apple 网络探测/地区服务（防止 DNS/IP 泄露真实位置）===
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-KEYWORD,mask
+  - DOMAIN-SUFFIX,push.apple.com
+  - DOMAIN-KEYWORD,courier
