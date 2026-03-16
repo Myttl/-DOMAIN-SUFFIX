@@ -36,3 +36,9 @@ payload:
   - DOMAIN-KEYWORD,mask
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-KEYWORD,courier
+  # Forex.com（嘉盛）相关域名===
+  - DOMAIN-SUFFIX,forex.com
+  - DOMAIN-SUFFIX,globalviewforex.com
+  - DOMAIN-SUFFIX,forextrading.com
+  - DOMAIN-SUFFIX,gaincapital.com
+  - DOMAIN-SUFFIX,stone-x.com
