@@ -42,3 +42,23 @@ payload:
   - DOMAIN-SUFFIX,forextrading.com
   - DOMAIN-SUFFIX,gaincapital.com
   - DOMAIN-SUFFIX,stone-x.com
+
+  
+  # ---- IBKR 核心域名 ----
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,ibllc.com
+  - DOMAIN-SUFFIX,ibkrcampus.com
+
+  # ---- 交易 / 网关 / API ----
+  - DOMAIN-SUFFIX,ibkrgw.com
+  - DOMAIN-SUFFIX,ibkrws.com
+
+  # ---- 关键词兜底（防漏） ----
+  - DOMAIN-KEYWORD,interactivebrokers
+  - DOMAIN-KEYWORD,ibkr
+  - DOMAIN-KEYWORD,ibllc
+
+  # ---- 云服务/CDN（部分IB流量会走） ----
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,cloudfront.net
